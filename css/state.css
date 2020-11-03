@@ -1,0 +1,111 @@
+@media (max-width: 960px){
+    body{height: 767px;}
+    header{
+        height: 10%;
+        background-color: darkslategray;
+        line-height: 3;
+    }
+    
+    section{
+        height:16%;
+        background-color: darkturquoise;
+        line-height: 7;
+    }
+    
+    footer{
+        height: 10%;
+        clear: both;
+        background-color: deeppink;
+        line-height: 4;
+    }
+    #hero{
+        height: 20%;
+        background-color: firebrick;
+        line-height: 7;
+    }
+    .right{float: right;
+        height: 50%;
+        width: 50%;
+        background-color: fuchsia;
+        line-height: 12;
+    }
+    .left{float: left;
+        height: 50%;
+        width: 49%;
+        background-color: gold;
+        line-height: 12;
+    }
+    
+    
+    #foursquare{
+    
+        height: 65%;
+    }
+    article{
+        height: 50%;
+        width: 50%;   
+    }
+
+}
+
+
+@media (min-width: 960px){
+    body{
+        background-color: cadetblue;
+        font-size: 4em;
+        color: orange;
+        width: 960px; 
+    }
+    header{ border: solid 1px black;
+        height: 100px;
+        width: 960px;
+        background-color: coral;
+    }
+    
+    .subhero2{ border: solid 1px black;
+        height:200px;
+        width:378px;
+        float: right;  
+        clear: right;
+        background-color: blueviolet;      
+    }
+    .subhero1{ border: solid 1px black;
+        height:200px;
+        width:378px;
+        float: left; 
+        clear: right;
+        background-color: bisque;       
+    }
+    
+    footer{border: solid 1px black;
+        height: 150px;
+        width: 758px;
+        
+        float: left;
+        background-color: cornsilk;
+    }
+    #hero{border: solid 1px black;
+        float: left;
+        height: 600px;
+        width: 198px;
+        clear: both;
+        background-color: darkgreen;
+    }   
+    
+    #foursquare{
+    
+        height: 250px;
+        width: 758px;
+        float: left;
+        
+    }
+    article{
+        height: 250px;
+        width: 187px;
+        background-color: darkgray;
+
+    }    
+
+
+
+}

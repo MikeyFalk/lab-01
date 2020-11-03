@@ -1,0 +1,43 @@
+
+
+
+   
+
+header{ 
+    border: solid 1px black;
+    margin: auto;
+    
+}
+
+section{ 
+    border: solid 1px black;
+    line-height: 2;
+    
+}
+
+footer{
+    border: solid 1px black;
+    line-height: 2;
+}
+
+#hero{
+    border: solid 1px black;
+    line-height: 7;
+
+}
+
+.right{
+    float: right;
+    
+
+}
+.left{
+    float: left;
+  
+    }
+
+article{
+    border: solid 1px black;
+    line-height: 2.5;
+    
+}
