@@ -1,2 +1,7 @@
-*{border: solid 2px black;
+*{
+border: solid 1em black;
+padding: 1em;
+margin: 1em;
+text-align: center;
+vertical-align: middle;
 }
