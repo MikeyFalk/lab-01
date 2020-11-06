@@ -1,111 +1,143 @@
 @media (max-width: 960px){
-    body{height: 767px;}
+    body{height: 100vw;
+    font-size: 3vw;
+}
+
     header{
-        height: 10%;
+        height: 10vw;
+        width: 100vw;
         background-color: darkslategray;
-        line-height: 3;
+        line-height: 2.5;
     }
     
-    section{
-        height:16%;
+    .subhero1{
+        height:16vw;
+        width: 100vw;
         background-color: darkturquoise;
-        line-height: 7;
+        line-height: 5;
+    }
+    .subhero2{
+        height:16vw;
+        width: 100vw;
+        background-color: purple;
+        line-height: 5;
     }
     
     footer{
-        height: 10%;
+        height: 10vw;
+        width: 100vw;
         clear: both;
         background-color: deeppink;
         line-height: 4;
     }
     #hero{
-        height: 20%;
+        height: 20vw;
+        width: 100vw;
         background-color: firebrick;
         line-height: 7;
     }
-    .right{float: right;
-        height: 50%;
-        width: 50%;
+    
+    
+    
+    
+    .right{
+       
+        height: 49vw;
+        width: 49.5vw;
         background-color: fuchsia;
         line-height: 12;
+        /* border: solid .2vw black; */
     }
-    .left{float: left;
-        height: 50%;
-        width: 49%;
+    .left{
+        
+        height: 49vw;
+        width: 49.7vw;
         background-color: gold;
         line-height: 12;
+        border: solid .2vw black;
     }
     
     
     #foursquare{
-    
-        height: 65%;
-    }
-    article{
-        height: 50%;
-        width: 50%;   
-    }
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;  
+    } 
+    /* article{
+        height: 50vw;
+        width: 50vw;   
+    } */
 
 }
 
 
 @media (min-width: 960px){
-    body{
+    #container{
         background-color: cadetblue;
-        font-size: 4em;
+        font-size: 4vw;
         color: orange;
-        width: 960px; 
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;            
     }
-    header{ border: solid 1px black;
-        height: 100px;
-        width: 960px;
-        background-color: coral;
-    }
-    
-    .subhero2{ border: solid 1px black;
-        height:200px;
-        width:378px;
-        float: right;  
-        clear: right;
-        background-color: blueviolet;      
-    }
-    .subhero1{ border: solid 1px black;
-        height:200px;
-        width:378px;
-        float: left; 
-        clear: right;
-        background-color: bisque;       
-    }
-    
-    footer{border: solid 1px black;
-        height: 150px;
-        width: 758px;
+
+
+    #tophalf{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 79vw;
         
-        float: left;
-        background-color: cornsilk;
+        
+       
     }
-    #hero{border: solid 1px black;
-        float: left;
-        height: 600px;
-        width: 198px;
-        clear: both;
+
+
+    header{
+        width: 100vw;
+        height: 13vw;
+        background-color: coral;
+        line-height: 2;
+        
+    }
+    
+    .subhero2{
+        width:50%;
+        height:26vw;
+        background-color: blueviolet;
+        line-height: 5;
+
+            
+    }
+    .subhero1{
+        width:50%;
+        height:26vw;
+        background-color: bisque;
+        line-height: 5;
+             
+    }
+    
+    footer{        
+        width: 100%;
+        height: 20vw;
+        background-color: cornsilk;
+        line-height: 5;
+    }
+    #hero{
+        width: 20.6vw;
+        height: 78vw;       
         background-color: darkgreen;
+        line-height: 14;
     }   
     
-    #foursquare{
     
-        height: 250px;
-        width: 758px;
-        float: left;
-        
-    }
-    article{
-        height: 250px;
-        width: 187px;
+    .article{
+        width: 25%;
+        height: 32vw;
         background-color: darkgray;
-
+        line-height: 6;
+        border: solid black .1vw;
     }    
-
-
 
 }
